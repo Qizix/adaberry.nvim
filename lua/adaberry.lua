@@ -1128,7 +1128,7 @@ local function get_groups()
     MiniStatuslineFilename = { link = "StatusLineNC" },
     MiniStatuslineInactive = { link = "StatusLineNC" },
     MiniStatuslineModeCommand = { fg = colors.bg0, bg = colors.yellow, bold = config.bold, nocombine = true },
-    MiniStatuslineModeInsert = { fg = colors.bg0, bg = colors.green, bold = config.bold, nocombine = true },
+    MiniStatuslineModeInsert = { fg = colors.bg1, bg = colors.green, bold = config.bold, nocombine = true },
     MiniStatuslineModeNormal = { fg = colors.bg0, bg = colors.fg1, bold = config.bold, nocombine = true },
     MiniStatuslineModeOther = { fg = colors.bg0, bg = colors.aqua, bold = config.bold, nocombine = true },
     MiniStatuslineModeReplace = { fg = colors.bg0, bg = colors.red, bold = config.bold, nocombine = true },
