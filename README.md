@@ -1,15 +1,15 @@
 <div align="center">
-      <h1> <img src="https://i.postimg.cc/WpQzgxVh/plugin-Icon.png" width="80px"><br/>gruvbox.nvim</h1>
+      <h1> <img src="https://i.postimg.cc/WpQzgxVh/plugin-Icon.png" width="80px"><br/>adaberry.nvim</h1>
      </div>
 <p align="center"> 
       <a href="https://twitter.com/intent/user?screen_name=ellisonleao" target="_blank"><img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/ellisonleao?style=for-the-badge" style="vertical-align:center" ></a>
       <a href="#"><img alt="Made with Lua" src="https://img.shields.io/badge/Made%20with%20Lua-blueviolet.svg?style=for-the-badge&logo=lua" style="vertical-align:center" /></a>
 </p>
 
-A port of [gruvbox community](https://github.com/gruvbox-community/gruvbox) theme to lua with [treesitter](https://github.com/nvim-treesitter/nvim-treesitter) and [semantic highlights](https://neovim.io/doc/user/lsp.html#lsp-semantic-highlight) support!
+A custom dark colorscheme for Neovim with treesitter and semantic highlights support.
 
 <p align="center">
-    <img src="https://i.postimg.cc/fy3tnGFt/gruvbox-themes.png" />
+    <img src="https://i.postimg.cc/fy3tnGFt/gruvbox-themes.png" alt="adaberry theme preview" />
 </p>
 
 # Prerequisites
@@ -21,19 +21,19 @@ Neovim 0.8.0+
 ## Using `packer`
 
 ```lua
-use { "ellisonleao/gruvbox.nvim" }
+use { "adaberry/adaberry.nvim" }
 ```
 
 ## Using `lazy.nvim`
 
 ```lua
-{ "ellisonleao/gruvbox.nvim", priority = 1000 , config = true, opts = ...}
+{ "adaberry/adaberry.nvim", priority = 1000 , config = true, opts = ...}
 ```
 
 ## Using `vim-plug`
 
 ```vim
-Plug 'ellisonleao/gruvbox.nvim'
+Plug 'adaberry/adaberry.nvim'
 ```
 
 # Basic Usage
@@ -41,24 +41,24 @@ Plug 'ellisonleao/gruvbox.nvim'
 Inside `init.vim`
 
 ```vim
-set background=dark " or light if you want light mode
-colorscheme gruvbox
+set background=dark
+colorscheme adaberry
 ```
 
 Inside `init.lua`
 
 ```lua
-vim.o.background = "dark" -- or "light" for light mode
-vim.cmd([[colorscheme gruvbox]])
+vim.o.background = "dark"
+vim.cmd([[colorscheme adaberry]])
 ```
 
 # Configuration
 
-Additional settings for gruvbox are:
+Additional settings for adaberry are:
 
 ```lua
 -- Default options:
-require("gruvbox").setup({
+require("adaberry").setup({
   terminal_colors = true, -- add neovim terminal colors
   undercurl = true,
   underline = true,
@@ -81,7 +81,7 @@ require("gruvbox").setup({
   dim_inactive = false,
   transparent_mode = false,
 })
-vim.cmd("colorscheme gruvbox")
+vim.cmd("colorscheme adaberry")
 ```
 
 **VERY IMPORTANT**: Make sure to call setup() **BEFORE** calling the colorscheme command, to use your custom configs
@@ -93,12 +93,12 @@ vim.cmd("colorscheme gruvbox")
 You can specify your own palette colors. For example:
 
 ```lua
-require("gruvbox").setup({
+require("adaberry").setup({
     palette_overrides = {
         bright_green = "#990000",
     }
 })
-vim.cmd("colorscheme gruvbox")
+vim.cmd("colorscheme adaberry")
 ```
 
 ### Highlight groups
@@ -107,24 +107,24 @@ If you don't enjoy the current color for a specific highlight group, now you can
 example:
 
 ```lua
-require("gruvbox").setup({
+require("adaberry").setup({
     overrides = {
         SignColumn = {bg = "#ff9900"}
     }
 })
-vim.cmd("colorscheme gruvbox")
+vim.cmd("colorscheme adaberry")
 ```
 
 It also works with treesitter groups and lsp semantic highlight tokens
 
 ```lua
-require("gruvbox").setup({
+require("adaberry").setup({
     overrides = {
         ["@lsp.type.method"] = { bg = "#ff9900" },
         ["@comment.lua"] = { bg = "#000000" },
     }
 })
-vim.cmd("colorscheme gruvbox")
+vim.cmd("colorscheme adaberry")
 ```
 
 Please note that the override values must follow the attributes from the highlight group map, such as:

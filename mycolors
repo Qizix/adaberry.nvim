@@ -1,0 +1,37 @@
+"editor.background": "#1D2022",
+"terminal.background": "#1D2022",
+"sideBar.background": "#1D2022",
+"activityBar.background": "#1D2022",
+"editor.selectionBackground": "#415678",
+"terminal.selectionBackground": "#415678",
+
+"editor.foreground": "#EEEDEB",
+"terminal.foreground": "#EEEDEB",
+"sideBar.foreground": "#EEEDEB",
+"tab.activeForeground": "#FFFFFF",
+"tab.inactiveBackground": "#1D2022",
+"tab.activeBackground": "#292929",
+
+"terminal.ansiBlack": "#121212",
+"terminal.ansiBrightBlack": "#292929",
+
+"terminal.ansiRed": "#C76156",
+"terminal.ansiBrightRed": "#E3493B",
+
+"terminal.ansiGreen": "#57C78A",
+"terminal.ansiBrightGreen": "#1CA05A",
+
+"terminal.ansiYellow": "#C8A35A",
+"terminal.ansiBrightYellow": "#E3AA3B",
+
+"terminal.ansiBlue": "#5785C7",
+"terminal.ansiBrightBlue": "#3BE38A",
+
+"terminal.ansiMagenta": "#C756A9",
+"terminal.ansiBrightMagenta": "#C8A35A",
+
+"terminal.ansiCyan": "#57C7C3",
+"terminal.ansiBrightCyan": "#3BE3DD",
+
+"terminal.ansiWhite": "#EEEDEB",
+"terminal.ansiBrightWhite": "#FFFFFF"
