@@ -1,0 +1,225 @@
+{
+  "$schema": "https://opencode.ai/theme.json",
+  "defs": {
+    "adaberry_black": "#121212",
+    "adaberry_bg": "#1D2022",
+    "adaberry_bg_alt": "#292929",
+    "adaberry_gray": "#415678",
+    "adaberry_fg": "#EEEDEB",
+    "adaberry_white": "#FFFFFF",
+    "adaberry_red": "#C76156",
+    "adaberry_red_bright": "#E3493B",
+    "adaberry_green": "#57C78A",
+    "adaberry_green_bright": "#1CA05A",
+    "adaberry_yellow": "#C8A35A",
+    "adaberry_yellow_bright": "#E3AA3B",
+    "adaberry_blue": "#5785C7",
+    "adaberry_blue_bright": "#3BE38A",
+    "adaberry_magenta": "#C756A9",
+    "adaberry_magenta_bright": "#C8A35A",
+    "adaberry_cyan": "#57C7C3",
+    "adaberry_cyan_bright": "#3BE3DD"
+  },
+  "theme": {
+    "primary": {
+      "dark": "adaberry_green",
+      "light": "adaberry_green"
+    },
+    "accent": {
+      "dark": "adaberry_yellow_bright",
+      "light": "adaberry_yellow_bright"
+    },
+    "secondary": {
+      "dark": "adaberry_green",
+      "light": "adaberry_green"
+    },
+    "error": {
+      "dark": "adaberry_red_bright",
+      "light": "adaberry_red_bright"
+    },
+    "warning": {
+      "dark": "adaberry_green_bright",
+      "light": "adaberry_green_bright"
+    },
+    "success": {
+      "dark": "adaberry_yellow_bright",
+      "light": "adaberry_yellow_bright"
+    },
+    "info": {
+      "dark": "adaberry_green",
+      "light": "adaberry_green"
+    },
+    "text": {
+      "dark": "adaberry_fg",
+      "light": "adaberry_bg"
+    },
+    "textMuted": {
+      "dark": "adaberry_gray",
+      "light": "adaberry_gray"
+    },
+    "background": {
+      "dark": "adaberry_bg",
+      "light": "adaberry_fg"
+    },
+    "backgroundPanel": {
+      "dark": "adaberry_bg_alt",
+      "light": "adaberry_bg_alt"
+    },
+    "backgroundElement": {
+      "dark": "adaberry_bg_alt",
+      "light": "adaberry_bg_alt"
+    },
+    "border": {
+      "dark": "adaberry_gray",
+      "light": "adaberry_gray"
+    },
+    "borderActive": {
+      "dark": "adaberry_yellow_bright",
+      "light": "adaberry_yellow_bright"
+    },
+    "borderSubtle": {
+      "dark": "adaberry_gray",
+      "light": "adaberry_gray"
+    },
+    "diffAdded": {
+      "dark": "adaberry_green",
+      "light": "adaberry_green"
+    },
+    "diffRemoved": {
+      "dark": "adaberry_red",
+      "light": "adaberry_red"
+    },
+    "diffContext": {
+      "dark": "adaberry_gray",
+      "light": "adaberry_gray"
+    },
+    "diffHunkHeader": {
+      "dark": "adaberry_gray",
+      "light": "adaberry_gray"
+    },
+    "diffHighlightAdded": {
+      "dark": "adaberry_yellow_bright",
+      "light": "adaberry_yellow_bright"
+    },
+    "diffHighlightRemoved": {
+      "dark": "adaberry_red_bright",
+      "light": "adaberry_red_bright"
+    },
+    "diffAddedBg": {
+      "dark": "adaberry_black",
+      "light": "adaberry_fg"
+    },
+    "diffRemovedBg": {
+      "dark": "adaberry_black",
+      "light": "adaberry_fg"
+    },
+    "diffContextBg": {
+      "dark": "adaberry_bg_alt",
+      "light": "adaberry_bg_alt"
+    },
+    "diffLineNumber": {
+      "dark": "adaberry_gray",
+      "light": "adaberry_gray"
+    },
+    "diffAddedLineNumberBg": {
+      "dark": "adaberry_bg_alt",
+      "light": "adaberry_fg"
+    },
+    "diffRemovedLineNumberBg": {
+      "dark": "adaberry_bg_alt",
+      "light": "adaberry_fg"
+    },
+    "markdownText": {
+      "dark": "adaberry_fg",
+      "light": "adaberry_bg"
+    },
+    "markdownHeading": {
+      "dark": "adaberry_green_bright",
+      "light": "adaberry_green_bright"
+    },
+    "markdownLink": {
+      "dark": "adaberry_yellow_bright",
+      "light": "adaberry_yellow_bright"
+    },
+    "markdownLinkText": {
+      "dark": "adaberry_green",
+      "light": "adaberry_green"
+    },
+    "markdownCode": {
+      "dark": "adaberry_yellow_bright",
+      "light": "adaberry_yellow_bright"
+    },
+    "markdownBlockQuote": {
+      "dark": "adaberry_gray",
+      "light": "adaberry_gray"
+    },
+    "markdownEmph": {
+      "dark": "adaberry_magenta",
+      "light": "adaberry_magenta"
+    },
+    "markdownStrong": {
+      "dark": "adaberry_yellow",
+      "light": "adaberry_yellow"
+    },
+    "markdownHorizontalRule": {
+      "dark": "adaberry_gray",
+      "light": "adaberry_gray"
+    },
+    "markdownListItem": {
+      "dark": "adaberry_green",
+      "light": "adaberry_green"
+    },
+    "markdownListEnumeration": {
+      "dark": "adaberry_cyan",
+      "light": "adaberry_cyan"
+    },
+    "markdownImage": {
+      "dark": "adaberry_yellow",
+      "light": "adaberry_yellow"
+    },
+    "markdownImageText": {
+      "dark": "adaberry_green",
+      "light": "adaberry_green"
+    },
+    "markdownCodeBlock": {
+      "dark": "adaberry_fg",
+      "light": "adaberry_bg"
+    },
+    "syntaxComment": {
+      "dark": "adaberry_gray",
+      "light": "adaberry_gray"
+    },
+    "syntaxKeyword": {
+      "dark": "adaberry_red_bright",
+      "light": "adaberry_red_bright"
+    },
+    "syntaxFunction": {
+      "dark": "adaberry_green_bright",
+      "light": "adaberry_green_bright"
+    },
+    "syntaxVariable": {
+      "dark": "adaberry_yellow_bright",
+      "light": "adaberry_yellow_bright"
+    },
+    "syntaxString": {
+      "dark": "adaberry_green",
+      "light": "adaberry_green"
+    },
+    "syntaxNumber": {
+      "dark": "adaberry_yellow",
+      "light": "adaberry_yellow"
+    },
+    "syntaxType": {
+      "dark": "adaberry_yellow",
+      "light": "adaberry_yellow"
+    },
+    "syntaxOperator": {
+      "dark": "adaberry_red",
+      "light": "adaberry_red"
+    },
+    "syntaxPunctuation": {
+      "dark": "adaberry_fg",
+      "light": "adaberry_bg"
+    }
+  }
+}
