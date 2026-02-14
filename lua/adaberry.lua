@@ -127,6 +127,7 @@ Adaberry.palette = {
   light_aqua = "#3BE3DD",
   light_aqua_soft = "#3BE3DD",
   gray = "#415678",
+  pink = "#9c1a91",
 }
 
 -- get a hex list of adaberry colors based on current bg and constrast config
@@ -170,6 +171,7 @@ local function get_colors()
       dark_green = p.dark_green,
       dark_aqua = p.dark_aqua,
       gray = p.gray,
+      pink = p.pink,
     },
     light = {
       bg0 = p.light0,
@@ -301,7 +303,7 @@ local function get_groups()
     CursorLineNr = { fg = colors.yellow, bg = colors.bg1 },
     NonText = { link = "AdaberryBg2" },
     SpecialKey = { link = "AdaberryFg4" },
-    Visual = { bg = colors.bg3, reverse = config.invert_selection },
+    Visual = { bg = colors.pink, reverse = config.invert_selection },
     VisualNOS = { link = "Visual" },
     Search = { fg = colors.yellow, bg = colors.bg0, reverse = config.inverse },
     IncSearch = { fg = colors.orange, bg = colors.bg0, reverse = config.inverse },
